@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-color{
+    background-color: #000000cf;
+}
+
+.logo{
+    margin-top: 4px;
+    height: 50px;
+    width: 156px;
+}
+
+/* header search bar */
+.search{
+    background-color: #aba222;
+    font-size: larger;
+    font-weight: bold;
+}
+.search:hover{
+    background-color: #78711a;
+    border: none;
+}
+.search:active{
+    background-color: #696201 !important;
+    color: black !important;
+    border: none;
+}
+
+.input-group > .text-border{
+    border-radius: 0;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    max-width: 100%;
+}
+.input-group > .search{
+    border-radius: 0;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* header login button link */
+.btn-login{
+    background-color: #aba222;
+    font-size: larger;
+    font-weight: bold;
+    border: none;
+    color: black;
+}
+.btn-login:hover{
+    background-color: #78711a;
+}
+
+.btn-login:active{
+    background-color: #696201 !important;
+    color: black !important;
+}
+
+/* header cart icon link */
+.cart{
+    color: #aba222;
+    font-size: 40px;
+}
+.cart:hover{
+    color: #948c1e;
+}
+
+/* Navbar styling */
+.nav-link {
+    display: inline-block;
+}
+
+.nav-link + .linetab{
+    margin-left: 250px;
+    border: rgb(222, 226, 230, 1) solid 2px;
+}
+
+.space{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.backcolor{
+    background-color: rgb(222, 226, 230, 1) !important;
+    /* padding: 10px; */
+}
+
+/* .flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+} */
+
+/* --------------------------- Footer ------------------------------------ */
+
+.decor{
+    list-style: none;
+    text-align: center;
+}
+
+.li-decor{
+    color: white;
+    text-decoration: none;
+}
+
+.horizontal-line{
+    color: white;
+}
+
+.copy-right{
+    color: white;
+    text-align: center;
+}
+
+/* ---------------------- contact us --------------------------------------- */
+.contactus-img{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+/* cover image */
+.style-img{
+    height: 500px;
+    border: none;
+}
+
+.logo-name{
+    font-family: 'Pacifico', cursive;
+    font-size: 100px;
+    color: white;
+}
+.tag-line{
+    font-size: 30px;
+    color: white;
+}
+
+/* section-2  cart */
+.section2{
+    background-color: rgb(128, 128, 128, 0.2);
+}
+/* cart button */
+.btn-cart{
+    background-color: #aba222;
+    font-weight: bold;
+    border: none;
+    color: black;
+}
+
+.btn-cart:hover{
+    background-color: #948c1e;
+    color: black;
+}
+
+.btn-cart:active{
+    background-color: #696201 !important;
+    color: black !important;
+}
+
+.btn-pre{
+    background-color: grey;
+    height: 40px;
+    width: 40px;
+    margin-block-end: auto;
+    margin: auto;
+    margin-left: 20px;
+}
+
+.btn-nxt{
+    background-color: grey;
+    height: 40px;
+    width: 40px;
+    margin-block-end: auto;
+    margin: auto;
+    margin-right: 20px;
+}
+.img-style{
+    height: 200px;
+    width: 100%;
+}
+
+/* Cart page */
+.btn-dlt{
+    background-color: #aba222;
+    border: none;
+    color: black;
+}
+
+.btn-dlt:hover{
+    background-color: #948c1e;
+    color: black;
+}
+.btn-dlt:active{
+    background-color: #696201 !important;
+    color: black !important;
+}
+
+.tbl-divider{
+    border-top: solid 1px rgb(0, 0, 0, 0.3);
+}
+
+.btn-chckout{
+    background-color: #aba222;
+    border: none;
+    color: black;
+}
+.btn-chckout:hover{
+    background-color: #948c1e;
+    color: black;
+}
+.btn-chckout:active{
+    background-color: #696201 !important;
+    color: black !important;
+}
+.btn-unary{
+    background-color: #aba222;
+    border: none;
+    color: black;
+}
+.btn-unary:hover{
+    background-color: #948c1e;
+}
+.btn-unary:active{
+    background-color: #696201 !important;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Header</title>
+    <!-- Bootstrap.min.css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Font Awesome --> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container-fluid m-0 p-0">
+        <nav class="navbar navbar-expand-lg m-0 p-0">
+            <div class="container-fluid bg-color row m-0 p-0">
+                <ul class="navbar-nav mb-2 m-0 p-0">
+                    <div class="col col-lg-2 m-0 p-0">
+                        <li class="nav-item mx-3">
+                            <a href="./home.html" class="nav-link"><img src="./images/cloth logo-removebg-preview.png" class="logo" alt="ecommerce_logo"></a>
+                            <button class="navbar-toggler linetab" type="button" data-bs-toggle="collapse"  data-bs-theme="dark" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </li>
+                    </div>
+                    <div class="col col-lg-7 col-sm-6">
+                        <li class="nav-item mx-3 mt-3 mb-3">
+                            <div class="input-group">
+                                <input type="text" class="form-control text-border" placeholder="Product name, Category name, etc" aria-label="Product name, Category name, etc" aria-describedby="button-addon2">
+                                <button class="btn search" type="button" id="button-addon2">Search</button>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="d-flex flex-row-reverse">
+                        <div class="col col-lg-2">
+                            <li class="nav-item mx-3 mt-3">
+                                <a href="./login.html" class="btn btn-login">Login</a>
+                            </li>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row-reverse">
+                        <div class="col col-lg-1">
+                            <li class="nav-item mx-3 mt-1">
+                                <a href="./cart.html"><i class="cart fa fa-shopping-cart nav-link"></i></a>
+                            </li>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </nav>    
+        
+        <nav class="navbar navbar-expand-lg m-0 p-0">
+            <div class="container-fluid m-0 p-0">
+                <div class="collapse navbar-collapse bg-body-tertiary backcolor flex-column flex-wrap align-content-center" id="navbarSupportedContent">
+                    <div class="navbar-nav me-auto mb-2 mb-lg-0 d-flex flex-row justify-content-center">
+                        <span class="nav-item space">
+                            <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
+                        </span>
+                        <span class="nav-item space">
+                            <a class="nav-link" href="./product.html">All Product</a>
+                        </span>
+                        <span class="nav-item space dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Women
+                            </a>
+                            <div class="dropdown-menu bg-body-tertiary">
+                                <span><a class="dropdown-item" href="./product.html">All products</a></span>
+                                <span><a class="dropdown-item" href="#">Dresses</a></span>
+                                <span><a class="dropdown-item" href="#">Pants</a></span>
+                                <span><a class="dropdown-item" href="#">Skirts</a></span>
+                            </div>
+                        </span>
+                        <span class="nav-item space dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Men
+                            </a>
+                            <div class="dropdown-menu bg-body-tertiary">
+                                <span><a class="dropdown-item" href="./product.html">All products</a></span>
+                                <span><a class="dropdown-item" href="#">Shirts</a></span>
+                                <span><a class="dropdown-item" href="#">Pants</a></span>
+                                <span><a class="dropdown-item" href="#">Hoodies</a></span>
+                            </div>
+                        </span>
+                        <span class="nav-item space">
+                            <a class="nav-link" href="#">Kids</a>
+                        </span>
+                        <span class="nav-item space">
+                            <a class="nav-link" href="./contact.html">Contact</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- bootstrap.bundle.min.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
